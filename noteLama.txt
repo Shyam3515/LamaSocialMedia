@@ -1,0 +1,26 @@
+***Sass => For easy handling of class name attributes installing the Sass for styling purposes.
+npm add sass.
+
+ New major version of npm available! 6.14.13 -> 10.2.3      │
+   │   Changelog: https://github.com/npm/cli/releases/tag/v10.2.3   │
+   │               Run npm install -g npm to update!
+
+ // The React Router <Outlet/> component (from react-router-dom ) is used within the parent route element to indicate where a child route element should be rendered. The given example creates a <Route> at the root path / that renders an element <Root/> and a child route on the path /home .
+     
+
+Context API:
+ =>It is nothing but the container to store the data and have it accessible to the components, no matter where  they are in your application. We can have access to the data to any component with out the use of PROPS.[It is a way to have some state that is accessible by multiple components.]
+
+ => Context is a way to avoid prop-drill-chaining, 
+
+  It is a state management solution provided by React, which allows us to create what is known as context, and the context provide values like states and functions that can be consumed by a group of components that are wrapped around the context.
+=> My understand: InOrder to stop rerendering of components every time we change the state of a variable, or passing state variable as props to lot of components is a big task. So, to avoid these things we are using Context API.
+
+=> You have to create context for every group of components that you want to pass, have access to the same states.
+A context will have bunch of values inside of it and values basically all the different things we want to pass in that context, so that the components inside of that context will have access to it.
+
+***Drawbacks of Using Context API for State Management:::
+Reduced Performance: Updating the context value can potentially cause unnecessary re-renders in consuming components, even if the changes are not relevant to them. This can impact performance, especially in larger component trees.
+
+ContextProvider:
+ You have contextAPI and to make it provide to other components you need to use Provider.
